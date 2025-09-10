@@ -1,0 +1,23 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #252526;
+
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* gets rid of purple color and underlining on links */
+a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
