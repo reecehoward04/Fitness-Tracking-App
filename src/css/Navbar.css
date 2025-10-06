@@ -6,6 +6,7 @@
 
 .navbar {
     width: 100%;
+    background-color: #1c1c20;
 }
 
 .navlinks {
@@ -13,13 +14,15 @@
     list-style: none;
     gap: 2%;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
-.navlinks a{
+.navlinks li{
     transition: all 0.15s ease;
 }
 
-.navlinks a:hover{
+.navlinks li:hover{
     color: #7393B3;
 }
 
@@ -28,4 +31,18 @@
     text-align: center;
     width: 120px;
     margin-left: auto;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 7px;
+    margin-right: 20px;
+    transition: all 0.15s ease;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.navlinks .login-button:hover {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
 }

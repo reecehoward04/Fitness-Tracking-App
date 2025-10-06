@@ -1,8 +1,13 @@
+import '../css/Nutrition.css'
 
 const Nutrition = () => {
   return (
-    <div>
-      Nutrition
+    <div className="nutrition-page">
+      <div className="nutrition-container">
+        <div>Daily Calories:</div>
+
+        <input type="text" placeholder='search for meal' />
+      </div>
     </div>
   )
 }
